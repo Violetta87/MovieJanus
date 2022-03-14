@@ -7,13 +7,13 @@ import java.util.Scanner;
 
 public class FileHandle {
 
-    CreateFileTabel createFileTabel = new CreateFileTabel(this);
     String filename = "Imdb-data";
     File file = new File("ressources/" + filename + ".csv");
     Scanner scan = new Scanner(file);
 
     public FileHandle() throws FileNotFoundException {
     }
+
 
     public String createTableFromFile() throws FileNotFoundException {
 
