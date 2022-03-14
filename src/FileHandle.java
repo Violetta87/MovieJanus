@@ -37,6 +37,7 @@ public class FileHandle {
 
         String insertInto = "";
         String array1 [];
+        ArrayList<String> listny = new ArrayList<>();
 
         //Vi springer første linje over (Eftersom at vi ikke beder om at det printes ud)
         scan.nextLine();
